@@ -7,12 +7,11 @@ const main = () => {
 
   message.append("Message");
 
-  root.append(message);
+  // root.append(message);
 
   console.log("Started");
-  const svgNode = initGraph();
 
-  root.append(svgNode);
+  initGraph(root);
 };
 
 main();
